@@ -7,6 +7,7 @@ import {
 import SearchIcon from "@/public/icons/search";
 import CartIcon from "@/public/icons/cart";
 import UserIcon from "@/public/icons/user";
+import { Button } from "../ui/button";
 
 const Header = () => {
   return (
@@ -31,8 +32,12 @@ const Header = () => {
             <SearchIcon />
           </InputGroupAddon>
         </InputGroup>
-        <CartIcon />
-        <UserIcon />
+        <Button variant="outline" size="icon" aria-label="Submit" className="border-none cursor-pointer">
+          <CartIcon />
+        </Button>
+        <Button variant="outline" size="icon" aria-label="Submit" className="border-none cursor-pointer">
+          <UserIcon />
+        </Button>
       </div>
     </div>
   );

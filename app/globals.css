@@ -27,6 +27,7 @@
   --color-chart-1: var(--chart-1);
   --color-ring: var(--ring);
   --color-input: var(--input);
+  --color-bone: var(--bone);
   --color-border: var(--border);
   --color-border-search: var(--border-search);
   --color-destructive: var(--destructive);
@@ -89,6 +90,7 @@
   --sidebar-ring: oklch(0.708 0 0);
   --charcoal: #2F2E2E;
   --light-gray: #EAE7E7;
+  --bone: #F3F0EF;
 }
 
 .dark {
