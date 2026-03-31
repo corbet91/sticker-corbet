@@ -2,6 +2,7 @@ import Header from "@/components/header";
 import type { Metadata } from "next";
 import { Bungee, Space_Grotesk } from "next/font/google";
 import "./globals.css";
+import Footer from "@/components/footer";
 
 const bungee = Bungee({
   subsets: ["vietnamese"],
@@ -34,6 +35,7 @@ export default function RootLayout({
       >
         <Header />
         {children}
+        <Footer />
       </body>
     </html>
   );
