@@ -1,0 +1,18 @@
+import { SVGProps } from "react";
+
+const ListIcon = (props: SVGProps<SVGSVGElement>) => (
+  <svg
+    width={18}
+    height={12}
+    viewBox="0 0 18 12"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+    {...props}
+  >
+    <path
+      d="M0 12V10H18V12H0V12M0 7V5H18V7H0V7M0 2V0H18V2H0V2"
+      fill="#006571"
+    />
+  </svg>
+);
+export default ListIcon;

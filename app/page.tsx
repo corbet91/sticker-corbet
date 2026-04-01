@@ -1,6 +1,9 @@
 import CommingSoon from "@/components/comming-soon";
 import TextTitle from "@/components/text-title";
-import bgHusky from "@/public/husky3d.png";
+import BusIcon from "@/public/icons/bus";
+import LeafIcon from "@/public/icons/leaf";
+import PaintIcon from "@/public/icons/paint";
+import ThunderIcon from "@/public/icons/thunder";
 const Home = () => {
   return (
     <div>
@@ -17,10 +20,39 @@ const Home = () => {
         </div>
       </div>
       <div className="py-16 px-3 bg-bone rounded-[12px]">
-      <TextTitle title="BỘ SƯU TẬP ĐIỂN HÌNH" content="Dòng Husky Art độc bản " />
-      <CommingSoon/>
+        <TextTitle
+          title="BỘ SƯU TẬP ĐIỂN HÌNH"
+          content="Dòng Husky Art độc bản "
+        />
+        <CommingSoon />
       </div>
-
+      <div className="py-16 px-3 flex flex-row gap-4 h-125">
+        <div className="rounded-3xl bg-[#005863] flex-[2.5] flex flex-row p-4">
+          <div className="flex flex-col justify-end ml-8 gap-2">
+            <h1 className="font-bungee text-[24px] leading-6 text-[#26E6FF]">
+              TỰ THIẾT KẾ
+            </h1>
+            <span className="uppercase text-white">
+              Đầy sáng tạo và tinh tế
+            </span>
+          </div>
+          <PaintIcon className="opacity-10 ml-auto" />
+        </div>
+        <div className="flex-1 flex-col flex gap-2 h-full">
+          <div className="flex-1 rounded-3xl bg-[#26E6FF] p-4 flex flex-col justify-between">
+            <ThunderIcon />
+            <h1 className="font-bungee text-[24px] leading-6 text-[#004F59]">
+              SHIP SIÊU TỐC
+            </h1>
+          </div>
+          <div className="flex-1 rounded-3xl bg-[#DFDCDC] p-4 flex flex-col justify-between">
+            <LeafIcon />
+            <h1 className="font-bungee text-[24px] leading-6 text-[#2F2E2E]">
+              VẬT LIỆU XANH
+            </h1>
+          </div>
+        </div>
+      </div>
     </div>
   );
 };
