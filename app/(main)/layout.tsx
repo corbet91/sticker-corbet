@@ -1,5 +1,3 @@
-import Footer from "@/components/footer";
-import Header from "@/components/header";
 
 export default function MainLayout({
   children,
@@ -7,10 +5,8 @@ export default function MainLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <main >
-      <Header />
+    <main className=" py-10 px-8 flex min-h-[calc(100dvh-68px-307px)]">
       {children}
-      <Footer />
     </main>
   );
 }

@@ -10,8 +10,8 @@ import UserIcon from "@/public/icons/user";
 import { Button } from "../ui/button";
 
 const Header = () => {
-  return (
-    <div className="py-4 px-8 flex flex-row items-center justify-between">
+  return ( 
+    <div className="py-4 px-8 flex flex-row items-center justify-between bg-white">
       <div className="flex flex-row">
         <h1 className="leading-8 text-[16px] font-bungee">Sticker Corbet</h1>
         {MENU_TOP_BAR.map((item, index) => {

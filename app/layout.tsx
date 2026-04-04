@@ -31,7 +31,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${bungee.variable} ${spaceGrotesk.variable} antialiased`}
+        className={`${bungee.variable} ${spaceGrotesk.variable} antialiased bg-[#F5F5F5] text-[#333333]`}
       >
         <Header />
         {children}
