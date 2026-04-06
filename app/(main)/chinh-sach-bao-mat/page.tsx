@@ -135,6 +135,39 @@ const Page = () => {
                 Bảo mật thông tin
               </span>
             </div>
+            <div className="flex flex-col gap-4 p-4 bg-[#2F2E2E] rounded-xl">
+              <span className="text-white ">
+                Chúng tôi áp dụng các tiêu chuẩn bảo mật SSL 256-bit hàng đầu để
+                đảm bảo an toàn cho dữ liệu truyền tải. Sticker Corbet cam kết:
+              </span>
+              <div className="grid grid-cols-2 gap-4 items-center justify-between h-24">
+                <div className="flex flex-row gap-4 items-center h-full">
+                  <div className="w-1 h-full bg-[#26E6FF]" />
+                  <div className="flex flex-col gap-1">
+                    <span className="text-white text-[18px]">
+                      Không bán dữ liệu
+                    </span>
+                    <span className="leading-5 text-[14px] text-[#F9F6F5]">
+                      Chúng tôi không bao giờ bán, trao đổi hoặc cho bên thứ ba
+                      thuê thông tin cá nhân của khách hàng.
+                    </span>
+                  </div>
+                </div>
+                <div className="flex flex-row gap-4 items-center h-full">
+                  <div className="w-1 h-full bg-[#26E6FF]" />
+                  <div className="flex flex-col gap-1">
+                    <span className="text-white text-[18px]">
+                      Mã hóa thanh toán
+                    </span>
+                    <span className="leading-5 text-[14px] text-[#F9F6F5]">
+                      Thông tin thẻ tín dụng và thanh toán được xử lý qua cổng
+                      an toàn, không lưu trữ trực tiếp trên máy chủ của chúng
+                      tôi.
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
