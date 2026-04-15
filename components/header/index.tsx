@@ -8,12 +8,13 @@ import SearchIcon from "@/public/icons/search";
 import CartIcon from "@/public/icons/cart";
 import UserIcon from "@/public/icons/user";
 import { Button } from "../ui/button";
+import Link from "next/link";
 
 const Header = () => {
   return ( 
     <div className="py-4 px-8 flex flex-row items-center justify-between bg-white">
       <div className="flex flex-row">
-        <h1 className="leading-8 text-[16px] font-bungee">Sticker Corbet</h1>
+        <Link href={"/"} className="leading-8 text-[16px] font-bungee">Sticker Corbet</Link>
         {MENU_TOP_BAR.map((item, index) => {
           return (
             <h1
