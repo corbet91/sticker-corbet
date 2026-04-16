@@ -18,7 +18,7 @@ const Page = () => {
 
   useEffect(() => {
     setBreadcrumbs([
-      { label: "Trang chủ", href: "/trang-chu" },
+      { label: "Trang chủ", href: "/" },
       {
         label: "Điều khoản dịch vụ",
         href: `/dieu-khoan-dich-vu`,
