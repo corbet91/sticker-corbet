@@ -29,7 +29,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="en" className="w-screen">
       <body
         className={`${bungee.variable} ${spaceGrotesk.variable} antialiased bg-[#F5F5F5] text-[#333333]`}
       >

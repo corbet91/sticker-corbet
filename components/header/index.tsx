@@ -18,7 +18,7 @@ const Header = () => {
         {MENU_TOP_BAR.map((item, index) => {
           return (
             <h1
-              className=" ml-10 leading-8 text-[14px] font-bold font-space-grotesk uppercase cursor-pointer"
+              className="lg:block hidden ml-10 leading-8 text-[14px] font-bold font-space-grotesk uppercase cursor-pointer"
               key={index}
             >
               {item.title}
@@ -27,7 +27,7 @@ const Header = () => {
         })}
       </div>
       <div className="flex flex-row items-center gap-8">
-        <InputGroup className="rounded-2xl border-none bg-light-gray h-9 w-[256px] mr-2">
+        <InputGroup className="rounded-2xl border-none bg-light-gray h-9 w-[256px] mr-2 lg:block hidden">
           <InputGroupInput placeholder="Tìm sản phẩm" className="h-9"/>
           <InputGroupAddon>
             <SearchIcon />

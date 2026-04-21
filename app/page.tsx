@@ -1,16 +1,15 @@
 import CommingSoon from "@/components/comming-soon";
 import TextTitle from "@/components/text-title";
-import BusIcon from "@/public/icons/bus";
 import LeafIcon from "@/public/icons/leaf";
 import PaintIcon from "@/public/icons/paint";
 import ThunderIcon from "@/public/icons/thunder";
 const Home = () => {
   return (
-    <div>
+    <div className="w-full">
       <div className="bg-bone py-12 px-3">
-        <div className="bg-[#1A1A1A] rounded-[12px] h-128 w-full">
+        <div className="bg-[#1A1A1A] rounded-[12px] h-64 lg:h-128 w-full">
           <div className="flex flex-col items-center justify-center h-full">
-            <h1 className="text-white font-bungee text-[180px]">
+            <h1 className="text-white font-bungee text-7xl lg:text-[180px]">
               CORBET <span className="text-[#00E5FF]">corp</span>
             </h1>
             <div className="text-white">
