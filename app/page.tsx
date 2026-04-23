@@ -9,10 +9,10 @@ const Home = () => {
       <div className="bg-bone py-12 px-3">
         <div className="bg-[#1A1A1A] rounded-[12px] h-64 lg:h-128 w-full">
           <div className="flex flex-col items-center justify-center h-full">
-            <h1 className="text-white font-bungee text-7xl lg:text-[180px]">
+            <h1 className="text-white font-bungee text-5xl md:text-7xl lg:text-[180px]">
               CORBET <span className="text-[#00E5FF]">corp</span>
             </h1>
-            <div className="text-white">
+            <div className="text-white text-xs md:text-base">
               Nâng tầm phong cách cá nhân với dòng sticker độc bản.
             </div>
           </div>
