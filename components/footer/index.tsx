@@ -11,7 +11,7 @@ const Footer = () => {
           <h1 className="font-bungee text-[#2F2E2E] text-[18px] leading-7">
             Corbet Corp
           </h1>
-          <span className="uppercase text-[#78716C] text-[14px] leading-[22.8px] w-100">
+          <span className="uppercase text-[#78716C] text-[10px] lg:text-[14px] leading-[22.8px] w-full lg:w-100">
             Xưởng in Sticker nghệ thuật của Việt Nam. Chúng tôi mang linh hồn
             vào từng miếng dán.
           </span>
@@ -19,7 +19,7 @@ const Footer = () => {
             © 2026 Sticker Corbet.
           </h1>
         </div>
-        <div className="flex flex-col gap-4">
+        <div className="gap-4 hidden lg:flex lg:flex-col">
           <Link className="uppercase text-[#5B5B5B] text-[14px] tracking-[1.4px]" href="/chinh-sach-bao-mat">
             Privacy Policy
           </Link>
@@ -30,7 +30,7 @@ const Footer = () => {
             Shipping Info
           </span>
         </div>
-        <div className="flex flex-col gap-4">
+        <div className="gap-4 hidden lg:flex lg:flex-col">
           <span className="uppercase text-[#5B5B5B] text-[14px] tracking-[1.4px]">
             Contact Us
           </span>

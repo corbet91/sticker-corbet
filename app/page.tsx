@@ -25,8 +25,8 @@ const Home = () => {
         />
         <CommingSoon />
       </div>
-      <div className="py-16 px-3 flex flex-row gap-4 h-125">
-        <div className="rounded-3xl bg-[#005863] flex-[2.5] flex flex-row p-4">
+      <div className="py-16 px-3 flex flex-row gap-4 h-125 w-full">
+        <div className="rounded-3xl bg-[#005863] w-1/2 lg:w-full lg:flex-[2.5] flex flex-row p-4">
           <div className="flex flex-col justify-end ml-8 gap-2">
             <h1 className="font-bungee text-[24px] leading-6 text-[#26E6FF]">
               TỰ THIẾT KẾ
@@ -37,7 +37,7 @@ const Home = () => {
           </div>
           <PaintIcon className="opacity-10 ml-auto" />
         </div>
-        <div className="flex-1 flex-col flex gap-2 h-full">
+        <div className="flex-1 flex-col flex gap-2 h-full w-full">
           <div className="flex-1 rounded-3xl bg-[#26E6FF] p-4 flex flex-col justify-between">
             <ThunderIcon />
             <h1 className="font-bungee text-[24px] leading-6 text-[#004F59]">
