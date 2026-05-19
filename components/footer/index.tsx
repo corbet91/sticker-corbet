@@ -1,6 +1,3 @@
-import ShareIcon from "@/public/icons/share";
-import { Button } from "../ui/button";
-import MessageIcon from "@/public/icons/message";
 import Link from "next/link";
 
 const Footer = () => {
@@ -34,12 +31,12 @@ const Footer = () => {
           <span className="uppercase text-[#5B5B5B] text-[14px] tracking-[1.4px]">
             Contact Us
           </span>
-          <span className="uppercase text-[#5B5B5B] text-[14px] tracking-[1.4px]">
+          <Link href={"https://www.instagram.com/nhathodiendai/"} className="uppercase text-[#5B5B5B] text-[14px] tracking-[1.4px]">
             Instagram
-          </span>
-          <span className="uppercase text-[#5B5B5B] text-[14px] tracking-[1.4px]">
+          </Link>
+          <Link href={"https://www.tiktok.com/@nhathodien_daithihao"} className="uppercase text-[#5B5B5B] text-[14px] tracking-[1.4px]">
             TikTok
-          </span>
+          </Link>
         </div>
       </div>
     </footer>
