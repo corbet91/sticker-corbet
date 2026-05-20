@@ -3,16 +3,24 @@ import CartIcon from "@/public/icons/cart";
 import UserIcon from "@/public/icons/user";
 import Link from "next/link";
 import { Button } from "../ui/button";
+import { InputGroup, InputGroupInput } from "../ui/input-group";
 import {
-  InputGroup,
-  InputGroupInput
-} from "../ui/input-group";
+  DropdownMenu,
+  DropdownMenuContent,
+  DropdownMenuGroup,
+  DropdownMenuItem,
+  DropdownMenuLabel,
+  DropdownMenuSeparator,
+  DropdownMenuTrigger,
+} from "../ui/dropdown-menu";
 
 const Header = () => {
-  return ( 
+  return (
     <div className="py-4 px-8 flex flex-row items-center justify-between bg-white">
       <div className="flex flex-row">
-        <Link href={"/"} className="leading-8 text-[16px] font-bungee">Sticker Corbet</Link>
+        <Link href={"/"} className="leading-8 text-[16px] font-bungee">
+          Sticker Corbet
+        </Link>
         {MENU_TOP_BAR.map((item, index) => {
           return (
             <h1
@@ -26,14 +34,36 @@ const Header = () => {
       </div>
       <div className="flex flex-row items-center gap-8">
         <InputGroup className="rounded-2xl border-none bg-light-gray h-9  mr-2 lg:block hidden">
-          <InputGroupInput placeholder="Tìm sản phẩm" className="h-9"/>
+          <InputGroupInput placeholder="Tìm sản phẩm" className="h-9" />
         </InputGroup>
-        <Button variant="outline" size="icon" aria-label="Submit" className="border-none cursor-pointer">
+
+        <Button
+          variant="outline"
+          size="icon"
+          aria-label="Submit"
+          className="border-none cursor-pointer"
+        >
           <CartIcon />
         </Button>
-        <Button variant="outline" size="icon" aria-label="Submit" className="border-none cursor-pointer">
-          <UserIcon />
-        </Button>
+        <DropdownMenu>
+          <DropdownMenuTrigger asChild>
+            <Button
+              variant="outline"
+              size="icon"
+              aria-label="Submit"
+              className="border-none cursor-pointer"
+            >
+              <UserIcon />
+            </Button>
+          </DropdownMenuTrigger>
+          <DropdownMenuContent>
+            <DropdownMenuGroup>
+              <DropdownMenuLabel>Tài khoản của tôi</DropdownMenuLabel>
+              <DropdownMenuItem>Thông tin</DropdownMenuItem>
+              <DropdownMenuItem>Thanh toán</DropdownMenuItem>
+            </DropdownMenuGroup>
+          </DropdownMenuContent>
+        </DropdownMenu>
       </div>
     </div>
   );
