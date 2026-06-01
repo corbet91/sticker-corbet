@@ -3,6 +3,7 @@ import type { Metadata } from "next";
 import { Bungee, Space_Grotesk } from "next/font/google";
 import "./globals.css";
 import Footer from "@/components/footer";
+import { TooltipProvider } from "@/components/ui/tooltip";
 
 const bungee = Bungee({
   subsets: ["vietnamese"],
@@ -30,13 +31,16 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body
-        className={`${bungee.variable} ${spaceGrotesk.variable} antialiased bg-[#F5F5F5] text-[#333333]`}
-      >
-        <Header />
-        {children}
-        <Footer />
-      </body>
+      <TooltipProvider>
+        <body
+          className={`${bungee.variable} ${spaceGrotesk.variable} antialiased bg-[#F5F5F5] text-[#333333]`}
+        >
+          <Header />
+
+          {children}
+          <Footer />
+        </body>
+      </TooltipProvider>
     </html>
   );
 }
