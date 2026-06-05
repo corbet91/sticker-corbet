@@ -1,15 +1,10 @@
 import { MENU_TOP_BAR } from "@/constant";
 import CartIcon from "@/public/icons/cart";
+import SearchIcon from "@/public/icons/search";
 import Link from "next/link";
 import { Button } from "../ui/button";
-import {
-  InputGroup,
-  InputGroupAddon,
-  InputGroupInput,
-} from "../ui/input-group";
-import { Tooltip, TooltipContent, TooltipTrigger } from "../ui/tooltip";
-import SearchIcon from "@/public/icons/search";
 import { Input } from "../ui/input";
+import { Tooltip, TooltipContent, TooltipTrigger } from "../ui/tooltip";
 
 const Header = () => {
   return (
@@ -61,6 +56,13 @@ const Header = () => {
             <p>Basket</p>
           </TooltipContent>
         </Tooltip>
+
+        <Button
+          className="flex border-none  leading-8 text-[14px] font-bold font-space-grotesk uppercase cursor-pointer px-3 py-5 justify-center items-center rounded-2xl"
+          variant="outline"
+        >
+         <Link href={"/dang-ky"}>Đăng ký</Link>
+        </Button>
       </div>
     </div>
   );
