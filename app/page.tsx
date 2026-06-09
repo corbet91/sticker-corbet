@@ -1,8 +1,10 @@
 import CommingSoon from "@/components/comming-soon";
 import TextTitle from "@/components/text-title";
+import { Card, CardContent } from "@/components/ui/card";
 import LeafIcon from "@/public/icons/leaf";
 import PaintIcon from "@/public/icons/paint";
 import ThunderIcon from "@/public/icons/thunder";
+import Image from "next/image";
 const Home = () => {
   return (
     <div className="w-full">
@@ -18,12 +20,20 @@ const Home = () => {
           </div>
         </div>
       </div>
-      <div className="py-16 px-3 bg-bone rounded-[12px]">
+      <div className="py-16 px-3 bg-bone rounded-[12px] flex flex-col gap-4 ">
         <TextTitle
           title="BỘ SƯU TẬP ĐIỂN HÌNH"
           content="Dòng Husky Art độc bản "
         />
-        <CommingSoon />
+        <div>
+          <Image
+            src="https://lstjwsxuqsqbqcnnvswg.supabase.co/storage/v1/object/public/thich-truyen-chu-vn-store/0524(2).jpg"
+            alt="Description"
+            height={100}
+            width={246}
+            className="rounded-sm h-40 w-40"
+          />
+        </div>
       </div>
       <div className="py-16 px-3 flex flex-row gap-4 h-125 w-full">
         <div className="rounded-3xl bg-[#005863] w-1/2 lg:w-full lg:flex-[2.5] flex flex-row p-4">
