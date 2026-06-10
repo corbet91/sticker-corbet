@@ -1,6 +1,4 @@
-import CommingSoon from "@/components/comming-soon";
 import TextTitle from "@/components/text-title";
-import { Card, CardContent } from "@/components/ui/card";
 import LeafIcon from "@/public/icons/leaf";
 import PaintIcon from "@/public/icons/paint";
 import ThunderIcon from "@/public/icons/thunder";
@@ -25,14 +23,15 @@ const Home = () => {
           title="BỘ SƯU TẬP ĐIỂN HÌNH"
           content="Dòng Husky Art độc bản "
         />
-        <div>
+        <div className="flex flex-col gap-2">
           <Image
             src="https://lstjwsxuqsqbqcnnvswg.supabase.co/storage/v1/object/public/thich-truyen-chu-vn-store/0524(2).jpg"
             alt="Description"
             height={100}
             width={246}
-            className="rounded-sm h-40 w-40"
+            className="rounded-sm h-60 w-40"
           />
+           <h2 className="text-black text-[14px]">Sticker Sheet a5</h2>
         </div>
       </div>
       <div className="py-16 px-3 flex flex-row gap-4 h-125 w-full">
