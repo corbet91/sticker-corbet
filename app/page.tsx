@@ -18,20 +18,19 @@ const Home = () => {
           </div>
         </div>
       </div>
-      <div className="py-16 px-3 bg-bone rounded-[12px] flex flex-col gap-4 ">
+      <div className="py-16 px-3 bg-bone rounded-[12px] flex flex-col gap-8 ">
         <TextTitle
           title="BỘ SƯU TẬP ĐIỂN HÌNH"
           content="Dòng Husky Art độc bản "
         />
-        <div className="flex flex-col gap-2">
+        <div className="flex flex-col gap-2 px-4">
           <Image
             src="https://lstjwsxuqsqbqcnnvswg.supabase.co/storage/v1/object/public/thich-truyen-chu-vn-store/0524(2).jpg"
             alt="Description"
-            height={100}
+            height={357}
             width={246}
-            className="rounded-sm h-60 w-40"
           />
-           <h2 className="text-black text-[14px]">Sticker Sheet a5</h2>
+          <h2 className="text-charcoal text-[14px]">Sticker Sheet a5</h2>
         </div>
       </div>
       <div className="py-16 px-3 flex flex-row gap-4 h-125 w-full">
