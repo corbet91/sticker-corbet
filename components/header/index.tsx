@@ -16,7 +16,7 @@ const Header = () => {
         {MENU_TOP_BAR.map((item, index) => {
           return (
             <Button
-              className="flex border-none  leading-8 text-[14px] font-bold font-space-grotesk uppercase cursor-pointer px-3 py-5 justify-center items-center rounded-2xl"
+              className="flex border-none  leading-8 text-[14px] font-bold font-space-grotesk uppercase cursor-pointer px-3 py-5 justify-center items-center rounded-2xl hover:bg-blue-200"
               key={index}
               variant="outline"
             >
@@ -35,7 +35,7 @@ const Header = () => {
             variant="outline"
             size="icon"
             aria-label="Submit"
-            className="absolute right-1.5 top-1/2 -translate-y-1/2 rounded-full h-9 w-9 border-none bg-transparent hover:bg-gray-100 cursor-pointer"
+            className="absolute right-1.5 top-1/2 -translate-y-1/2 rounded-full h-9 w-9 border-none bg-transparent hover:bg-blue-200 cursor-pointer"
           >
             <SearchIcon className="w-4 h-4" />
           </Button>
@@ -58,7 +58,7 @@ const Header = () => {
         </Tooltip>
 
         <Button
-          className="flex border-none  leading-8 text-[14px] font-bold font-space-grotesk uppercase cursor-pointer px-3 py-5 justify-center items-center rounded-2xl"
+          className="flex border-none hover:bg-blue-200  leading-8 text-[14px] font-bold font-space-grotesk uppercase cursor-pointer px-3 py-5 justify-center items-center rounded-2xl"
           variant="outline"
         >
          <Link href={"/dang-ky"}>Đăng ký</Link>
