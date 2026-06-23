@@ -5,6 +5,17 @@ import Link from "next/link";
 import { Button } from "../ui/button";
 import { Input } from "../ui/input";
 import { Tooltip, TooltipContent, TooltipTrigger } from "../ui/tooltip";
+import {
+  DropdownMenu,
+  DropdownMenuContent,
+  DropdownMenuGroup,
+  DropdownMenuItem,
+  DropdownMenuLabel,
+  DropdownMenuSeparator,
+  DropdownMenuTrigger,
+} from "../ui/dropdown-menu";
+import Image from "next/image";
+import DropDownIcon from "@/public/icons/drop-down";
 
 const Header = () => {
   return (
@@ -61,8 +72,59 @@ const Header = () => {
           className="flex border-none hover:bg-blue-200  leading-8 text-[14px] font-bold font-space-grotesk uppercase cursor-pointer px-3 py-5 justify-center items-center rounded-2xl"
           variant="outline"
         >
-         <Link href={"/dang-ky"}>Đăng ký</Link>
+          <Link href={"/dang-ky"}>Đăng ký</Link>
         </Button>
+
+        <DropdownMenu>
+          <Tooltip>
+            <TooltipTrigger asChild>
+              <DropdownMenuTrigger asChild>
+                <Button
+                  variant="outline"
+                  size="icon"
+                  aria-label="Submit"
+                  className=" border-none cursor-pointer px-3 py-1 hover:bg-blue-200 rounded-full w-16.5 h-12"
+                >
+                  <Image
+                    src={
+                      "https://lstjwsxuqsqbqcnnvswg.supabase.co/storage/v1/object/public/thich-truyen-chu-vn-store/0524(2).jpg"
+                    }
+                    width={24}
+                    height={24}
+                    alt="User Avatar"
+                    className="rounded-full w-6 h-6"
+                  />
+                  <DropDownIcon />
+                </Button>
+              </DropdownMenuTrigger>
+            </TooltipTrigger>
+            <TooltipContent className="bg-[#122868]">
+              <p>Your account</p>
+            </TooltipContent>
+          </Tooltip>
+          <DropdownMenuContent>
+            <DropdownMenuGroup>
+              <DropdownMenuLabel className="flex flex-row items-center gap-2 bg-blue-200 px-4 py-2">
+                <Image
+                  src={
+                    "https://lstjwsxuqsqbqcnnvswg.supabase.co/storage/v1/object/public/thich-truyen-chu-vn-store/0524(2).jpg"
+                  }
+                  width={24}
+                  height={24}
+                  alt="User Avatar"
+                  className="rounded-full w-6 h-6"
+                />
+              </DropdownMenuLabel>
+              <DropdownMenuItem>Profile</DropdownMenuItem>
+              <DropdownMenuItem>Billing</DropdownMenuItem>
+            </DropdownMenuGroup>
+            <DropdownMenuSeparator />
+            <DropdownMenuGroup>
+              <DropdownMenuItem>Team</DropdownMenuItem>
+              <DropdownMenuItem>Subscription</DropdownMenuItem>
+            </DropdownMenuGroup>
+          </DropdownMenuContent>
+        </DropdownMenu>
       </div>
     </div>
   );
