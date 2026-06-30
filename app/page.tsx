@@ -7,16 +7,16 @@ const Home = () => {
   return (
     <div className="w-full">
       <div className="bg-bone py-12 px-3">
-        <div className="bg-[#1A1A1A] rounded-[12px] h-64 lg:h-128 w-full">
-          <div className="flex flex-col items-center justify-center h-full">
-            <h1 className="text-white font-bungee text-5xl md:text-7xl lg:text-[180px]">
-              CORBET <span className="text-[#00E5FF]">corp</span>
-            </h1>
-            <div className="text-white text-xs md:text-base">
-              Nâng tầm phong cách cá nhân với dòng sticker độc bản.
-            </div>
+        <div className="relative w-full h-120">
+           <Image
+            src="https://lstjwsxuqsqbqcnnvswg.supabase.co/storage/v1/object/public/thich-truyen-chu-vn-store/Untitled%20image.png"
+            alt="AVATAR"
+            // height={357}
+            // width={246}
+            fill
+            className="w-full h-100 object-cover"
+          />
           </div>
-        </div>
       </div>
       <div className="py-16 px-3 bg-bone rounded-[12px] flex flex-col gap-8 ">
         <TextTitle
