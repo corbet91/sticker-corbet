@@ -16,6 +16,7 @@ import {
 } from "../ui/dropdown-menu";
 import Image from "next/image";
 import DropDownIcon from "@/public/icons/drop-down";
+import SettingsIcon from "@/public/icons/settings";
 
 const Header = () => {
   return (
@@ -114,14 +115,21 @@ const Header = () => {
                   alt="User Avatar"
                   className="rounded-full w-6 h-6"
                 />
+                <div>
+                  <p className="text-sm font-medium text-black">Corbet</p>
+                  <p className="text-xs text-gray-500">View your profile</p>
+                </div>
               </DropdownMenuLabel>
-              <DropdownMenuItem>Profile</DropdownMenuItem>
-              <DropdownMenuItem>Billing</DropdownMenuItem>
             </DropdownMenuGroup>
             <DropdownMenuSeparator />
             <DropdownMenuGroup>
-              <DropdownMenuItem>Team</DropdownMenuItem>
-              <DropdownMenuItem>Subscription</DropdownMenuItem>
+              <DropdownMenuItem className="flex flex-row gap-4">
+                <SettingsIcon className="w-9 h-9" />
+                <p className="text-sm">Account settings</p>
+              </DropdownMenuItem>
+              {/* <DropdownMenuItem>
+                <p className="text-sm font-medium">Subscription</p>
+              </DropdownMenuItem> */}
             </DropdownMenuGroup>
           </DropdownMenuContent>
         </DropdownMenu>
