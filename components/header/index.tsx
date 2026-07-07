@@ -125,7 +125,7 @@ const Header = () => {
             <DropdownMenuGroup>
               <DropdownMenuItem className="flex flex-row gap-4">
                 <SettingsIcon className="w-9 h-9" />
-                <p className="text-sm">Account settings</p>
+                <p className="text-base">Account Settings</p>
               </DropdownMenuItem>
               {/* <DropdownMenuItem>
                 <p className="text-sm font-medium">Subscription</p>
