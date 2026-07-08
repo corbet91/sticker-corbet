@@ -127,9 +127,6 @@ const Header = () => {
                 <SettingsIcon className="w-9 h-9" />
                 <p className="text-base">Account Settings</p>
               </DropdownMenuItem>
-              {/* <DropdownMenuItem>
-                <p className="text-sm font-medium">Subscription</p>
-              </DropdownMenuItem> */}
             </DropdownMenuGroup>
           </DropdownMenuContent>
         </DropdownMenu>
