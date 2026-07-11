@@ -7,20 +7,20 @@ const Home = () => {
   return (
     <div className="w-full">
       <div className="bg-bone py-12 px-3">
-        <div className="relative w-full h-120">
-           <Image
-            src="https://lstjwsxuqsqbqcnnvswg.supabase.co/storage/v1/object/public/thich-truyen-chu-vn-store/Untitled%20image.png"
+        <div className="relative w-full h-220">
+          <Image
+            src="https://lstjwsxuqsqbqcnnvswg.supabase.co/storage/v1/object/public/thich-truyen-chu-vn-store/screen.png"
             alt="AVATAR"
             // height={357}
             // width={246}
             fill
-            className="w-full h-100 object-cover"
+            className="object-cover w-full h-full"
           />
-          </div>
+        </div>
       </div>
       <div className="py-16 px-3 bg-bone rounded-[12px] flex flex-col gap-8 ">
         <TextTitle
-          title="BỘ SƯU TẬP ĐIỂN HÌNH"
+          title="BỘ SƯU TẬP STICKER ĐIỂN HÌNH"
           content="Dòng Husky Art độc bản "
         />
         <div className="flex flex-col gap-2 px-4">

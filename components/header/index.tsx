@@ -69,12 +69,12 @@ const Header = () => {
           </TooltipContent>
         </Tooltip>
 
-        <Button
+        {/* <Button
           className="flex border-none hover:bg-blue-200  leading-8 text-[14px] font-bold font-space-grotesk uppercase cursor-pointer px-3 py-5 justify-center items-center rounded-2xl"
           variant="outline"
         >
           <Link href={"/dang-ky"}>Đăng ký</Link>
-        </Button>
+        </Button> */}
 
         <DropdownMenu>
           <Tooltip>

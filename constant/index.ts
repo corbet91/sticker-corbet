@@ -11,4 +11,8 @@ export const MENU_TOP_BAR = [
     title: "Về Chúng Tôi",
     url: "/about",
   },
+  {
+    title: "Key Chain 3D",
+    url: "/key-chain-3d",
+  },
 ];
