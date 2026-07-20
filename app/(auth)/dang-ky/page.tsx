@@ -34,7 +34,7 @@ const Page = () => {
           TẠO TÀI KHOẢN MỚI
         </h1>
         <h2 className="text-[#5C5B5B] leading-5 text-sm tracking-[-0.35px]">
-          Gia nhập cộng đồng Sticker Corbet ngay hôm nay.
+          Gia nhập cộng đồng Corbet Store ngay hôm nay.
         </h2>
         <form className="flex flex-col gap-2 mt-4 w-full">
           <Controller

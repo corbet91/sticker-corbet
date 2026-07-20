@@ -31,7 +31,7 @@ const Page = () => {
           ĐĂNG NHẬP
         </h1>
         <h2 className="text-[#5C5B5B] leading-5 text-sm tracking-[-0.35px]">
-          Chào mừng bạn trở lại với Sticker Corbet.
+          Chào mừng bạn trở lại với Corbet Store.
         </h2>
         <form className="flex flex-col gap-2 mt-4 w-full">
           <Controller

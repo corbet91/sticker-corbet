@@ -53,7 +53,7 @@ const Page = () => {
             </div>
             <div className="p-4 bg-[#F3F0EF] rounded-xl flex flex-col gap-4">
               <span className="leading-7.5">
-                Sticker Corbet thu thập thông tin khi bạn đăng ký tài khoản, đặt
+                Corbet Store thu thập thông tin khi bạn đăng ký tài khoản, đặt
                 hàng hoặc đăng ký nhận bản tin của chúng tôi. Thông tin bao gồm:
               </span>
               <div className="grid grid-cols-2 w-full gap-4 flex-wrap">
@@ -121,7 +121,7 @@ const Page = () => {
                 <span className="text-xl leading-7">Hỗ trợ khách hàng</span>
                 <span className="text-[16px] leading-6 text-[#5C5B5B]">
                   Giải đáp thắc mắc và hỗ trợ kỹ thuật về các sản phẩm decal,
-                  sticker của Sticker Corbet.
+                  sticker của Corbet Store.
                 </span>
               </div>
             </div>
@@ -138,7 +138,7 @@ const Page = () => {
             <div className="flex flex-col gap-4 p-4 bg-[#2F2E2E] rounded-xl">
               <span className="text-white ">
                 Chúng tôi áp dụng các tiêu chuẩn bảo mật SSL 256-bit hàng đầu để
-                đảm bảo an toàn cho dữ liệu truyền tải. Sticker Corbet cam kết:
+                đảm bảo an toàn cho dữ liệu truyền tải. Corbet Store cam kết:
               </span>
               <div className="grid grid-cols-2 gap-4 items-center justify-between h-24">
                 <div className="flex flex-row gap-4 items-center h-full">

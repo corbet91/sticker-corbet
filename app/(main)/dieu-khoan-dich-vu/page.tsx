@@ -33,7 +33,7 @@ const Page = () => {
         ĐIỀU KHOẢN DỊCH VỤ
       </h1>
       <span className="w-200">
-        Chào mừng bạn đến với Sticker Corbet. Vui lòng đọc kỹ các điều khoản
+        Chào mừng bạn đến với Corbet Store. Vui lòng đọc kỹ các điều khoản
         dưới đây trước khi sử dụng dịch vụ của chúng tôi để đảm bảo quyền lợi
         của chính mình.
       </span>
@@ -42,7 +42,7 @@ const Page = () => {
           title="Điều khoản chung"
           content={
             <span>
-              Bằng việc truy cập và sử dụng website Sticker Corbet, quý khách
+              Bằng việc truy cập và sử dụng website Corbet Store, quý khách
               mặc nhiên đồng ý tuân thủ các quy định và điều kiện sử dụng được
               nêu tại đây. Chúng tôi có quyền thay đổi, chỉnh sửa, thêm hoặc
               lược bỏ bất kỳ phần nào trong Điều khoản dịch vụ này vào bất cứ
@@ -122,14 +122,14 @@ const Page = () => {
                 <SecurityIcon />
                 <h2>
                   Cung cấp đầy đủ và chính xác thông tin cá nhân bao gồm: tên,
-                  số điện thoại, địa chỉ nhận hàng để Sticker Corbet phục vụ tốt
+                  số điện thoại, địa chỉ nhận hàng để Corbet Store phục vụ tốt
                   nhất.
                 </h2>
               </div>
               <div className="flex flex-row gap-2 items-center">
                 <WarningIcon />
                 <h2>
-                  Không sử dụng các sản phẩm của Sticker Corbet cho các mục đích
+                  Không sử dụng các sản phẩm của Corbet Store cho các mục đích
                   vi phạm pháp luật, tuyên truyền nội dung đồi trụy hoặc chống
                   phá nhà nước.
                 </h2>

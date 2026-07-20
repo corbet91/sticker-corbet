@@ -23,7 +23,7 @@ const Header = () => {
     <div className="py-4 px-8 flex flex-row items-center justify-between bg-white">
       <div className="flex flex-row flex-1 gap-4 items-center ">
         <Link href={"/"} className="leading-8 text-[16px] font-bungee">
-          Sticker Corbet
+          Corbet Store
         </Link>
         {MENU_TOP_BAR.map((item, index) => {
           return (
