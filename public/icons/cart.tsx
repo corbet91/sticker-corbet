@@ -1,13 +1,23 @@
+import * as React from "react";
 import { SVGProps } from "react";
-const CartIcon = (props: SVGProps<SVGSVGElement>) => (
+const SVGComponent = (props: SVGProps<SVGSVGElement>) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
+    width={20}
+    height={20}
     viewBox="0 0 24 24"
+    fill="currentColor"
+    stroke="currentColor"
+    strokeWidth={2}
+    strokeLinecap="round"
+    strokeLinejoin="round"
+
     aria-hidden="true"
-    focusable="false"
     {...props}
   >
-    <path d="M8.75 18.5A1.75 1.75 0 1 1 8.75 22 1.75 1.75 0 0 1 8.75 18.5M17.25 18.5A1.75 1.75 0 1 1 17.25 22 1.75 1.75 0 0 1 17.25 18.5M1.75 1.001 1.96 1.006A3.2 3.2 0 0 1 3.192 1.319Q3.46 1.44 3.705 1.601 3.735 1.62 3.765 1.644L3.832 1.686A4.1 4.1 0 0 1 5.273 3.37L6.025 5H21.563A.5.5 0 0 1 22.059 5.559L21.002 14.539A1.1 1.1 0 0 1 20.037 15.502L7.337 16.968A1.25 1.25 0 0 1 5.977 16.007L3.256 4.222A1.58 1.58 0 0 0 2.644 3.302 3 3 0 0 0 2.359 3.136 1.6 1.6 0 0 0 1.72 3H1.5A.5.5 0 0 1 1 2.5V1.5A.5.5 0 0 1 1.5 1H1.72z" />
+    <circle cx={8} cy={21} r={1} />
+    <circle cx={19} cy={21} r={1} />
+    <path d="M2.05 2.05h2l2.66 12.42a2 2 0 0 0 2 1.58h9.78a2 2 0 0 0 1.95-1.57l1.65-7.43H5.12" />
   </svg>
 );
-export default CartIcon;
+export default SVGComponent;

@@ -6,7 +6,7 @@ const Footer = () => {
       <div className="flex flex-row justify-between  h-full items-center">
         <div className="flex flex-col gap-4">
           <h1 className="font-bungee text-white text-[18px] leading-7">
-            Corbet Corp
+            Corbet Store
           </h1>
           <span className="uppercase text-white text-[10px] lg:text-[14px] leading-[22.8px] w-full lg:w-100">
             Xưởng in Sticker nghệ thuật của Việt Nam. Chúng tôi mang linh hồn

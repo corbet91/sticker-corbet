@@ -28,7 +28,7 @@ const Header = () => {
         {MENU_TOP_BAR.map((item, index) => {
           return (
             <Button
-              className="flex border-none  leading-8 text-[14px] font-bold font-space-grotesk uppercase cursor-pointer px-3 py-5 justify-center items-center rounded-2xl hover:bg-blue-200"
+              className="flex border-none  leading-8 text-[14px] font-bold font-space-grotesk uppercase cursor-pointer px-3 py-5 justify-center items-center rounded-2xl hover:bg-[#282828] hover:text-white"
               key={index}
               variant="outline"
             >
@@ -47,7 +47,7 @@ const Header = () => {
             variant="outline"
             size="icon"
             aria-label="Submit"
-            className="absolute right-1.5 top-1/2 -translate-y-1/2 rounded-full h-9 w-9 border-none bg-transparent hover:bg-blue-200 cursor-pointer"
+            className="absolute right-1.5 top-1/2 -translate-y-1/2 rounded-full h-9 w-9 border-none bg-transparent hover:bg-[#282828] cursor-pointer"
           >
             <SearchIcon className="w-4 h-4" />
           </Button>
@@ -59,9 +59,9 @@ const Header = () => {
               variant="outline"
               size="icon"
               aria-label="Submit"
-              className=" border-none cursor-pointer p-1 hover:bg-blue-200 rounded-full"
+              className=" border-none cursor-pointer p-1 hover:bg-[#282828] rounded-full gc-focus group relative grid place-items-center w-10 h-10 text-black  hover:text-white transition-colors active:scale-90"
             >
-              <CartIcon className="w-6 h-6" />
+             <CartIcon/>
             </Button>
           </TooltipTrigger>
           <TooltipContent className="bg-[#122868]">
@@ -70,13 +70,13 @@ const Header = () => {
         </Tooltip>
 
         {/* <Button
-          className="flex border-none hover:bg-blue-200  leading-8 text-[14px] font-bold font-space-grotesk uppercase cursor-pointer px-3 py-5 justify-center items-center rounded-2xl"
+          className="flex border-none hover:bg-[#282828]  leading-8 text-[14px] font-bold font-space-grotesk uppercase cursor-pointer px-3 py-5 justify-center items-center rounded-2xl"
           variant="outline"
         >
           <Link href={"/dang-ky"}>Đăng ký</Link>
         </Button> */}
 
-        <DropdownMenu>
+        {/* <DropdownMenu>
           <Tooltip>
             <TooltipTrigger asChild>
               <DropdownMenuTrigger asChild>
@@ -84,7 +84,7 @@ const Header = () => {
                   variant="outline"
                   size="icon"
                   aria-label="Submit"
-                  className=" border-none cursor-pointer px-3 py-1 hover:bg-blue-200 rounded-full w-16.5 h-12"
+                  className=" border-none cursor-pointer px-3 py-1 hover:bg-[#282828] rounded-full w-16.5 h-12"
                 >
                   <Image
                     src={
@@ -105,7 +105,7 @@ const Header = () => {
           </Tooltip>
           <DropdownMenuContent>
             <DropdownMenuGroup>
-              <DropdownMenuLabel className="flex flex-row items-center gap-2 bg-blue-200 px-4 py-2">
+              <DropdownMenuLabel className="flex flex-row items-center gap-2 bg-[#282828] px-4 py-2">
                 <Image
                   src={
                     "https://lstjwsxuqsqbqcnnvswg.supabase.co/storage/v1/object/public/thich-truyen-chu-vn-store/0524(2).jpg"
@@ -129,7 +129,7 @@ const Header = () => {
               </DropdownMenuItem>
             </DropdownMenuGroup>
           </DropdownMenuContent>
-        </DropdownMenu>
+        </DropdownMenu> */}
       </div>
     </div>
   );
