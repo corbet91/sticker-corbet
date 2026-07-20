@@ -20,7 +20,7 @@ import SettingsIcon from "@/public/icons/settings";
 
 const Header = () => {
   return (
-    <div className="py-4 px-8 flex flex-row items-center justify-between bg-white">
+    <div className="py-4 px-8 hidden sm:flex flex-row items-center justify-between bg-white">
       <div className="flex flex-row flex-1 gap-4 items-center ">
         <Link href={"/"} className="leading-8 text-[16px] font-bungee">
           Corbet Store
@@ -37,7 +37,7 @@ const Header = () => {
           );
         })}
       </div>
-      <div className="flex flex-row items-center gap-8 flex-1">
+      <div className="hidden lg:flex flex-row items-center gap-8 flex-1">
         <div className="relative hidden lg:block w-full ">
           <Input
             className="focus-visible:ring-0 focus-visible:border-[#312b36] rounded-[24px] border-[#312b36] border-2 bg-white h-12 pl-4 pr-14 py-4 w-full"
